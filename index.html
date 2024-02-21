@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">
+            Kartodromo do Interlagos
+            <button onclick="start()">LARGADA!</button>
+        </div>
+        <div class="pista">
+            <img src="car1r.png" alt="carro de corrida vermelho" class="carro1" id="carro1" width="150px">
+            <img src="car2r.png" alt="carro de corrida amarelo" class="carro2" id="carro2" width="150px">
+        </div>
+    </div>
+    <div class="modal1" id="modal1">
+        <div class="modal-container1">
+
+            <button onclick="fechar()">Carro Venceu!!</button>
+        </div>
+    </div>
+    <div class="modal2" id="modal2">
+        <div class="modal-container2">
+            <button onclick="fechar()">Carro Venceu!!</button>
+        </div>
+    </div>
+    <script src="./script.js" ></script>
+</body>
+</html>
